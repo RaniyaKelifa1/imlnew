@@ -1,0 +1,10 @@
+directories:
+  output: dist
+  buildResources: assets
+appId: com.example.electronapp
+extends: null
+files:
+  - filter:
+      - build/**/*
+      - electron.cjs
+electronVersion: 32.2.2

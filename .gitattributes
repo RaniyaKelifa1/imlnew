@@ -1,0 +1,5 @@
+*.exe filter=lfs diff=lfs merge=lfs -text
+*.asar filter=lfs diff=lfs merge=lfs -text
+dist/iml_demo_dekstop[[:space:]]Setup[[:space:]]1.0.0.exe filter=lfs diff=lfs merge=lfs -text
+dist/win-unpacked/iml_demo_dekstop.exe filter=lfs diff=lfs merge=lfs -text
+dist/win-unpacked/resources/app.asar filter=lfs diff=lfs merge=lfs -text

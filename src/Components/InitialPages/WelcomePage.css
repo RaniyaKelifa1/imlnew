@@ -1,0 +1,42 @@
+/* WelcomePage.css */
+@keyframes backgroundAnimation {
+  0% {
+    background: linear-gradient(135deg, #0a3383 0%, #0a3383 30%, #116d9d 80%, #25b1b4 95%);
+  }
+  50% {
+    background: linear-gradient(135deg, #25b1b4 0%, #116d9d 30%, #0a3383 80%, #0a3383 95%);
+  }
+  100% {
+    background: linear-gradient(135deg, #0a3383 0%, #0a3383 30%, #116d9d 80%, #25b1b4 95%);
+  }
+}
+
+.animated-background {
+  animation: backgroundAnimation 5s ease infinite; /* Adjust duration and timing as needed */
+}
+
+.input-field {
+  width: 70%;
+  height: 40px;
+  border: 1px solid #d1d5db; /* Gray border */
+  border-radius: 10px; /* No rounded corners for a rectangular shape */
+  padding: 0 16px; /* Padding for input */
+  margin-bottom: 16px; /* Space between inputs */
+  font-size: 16px; /* Font size */
+  background-color: #f9f9f9; /* Off-white background for the input */
+  color: black; /* Black text color for input */
+}
+
+
+
+.input-field:focus {
+  outline: none; /* Remove default outline */
+  border-color: #0a3383; /* Change border color on focus */
+}
+
+.forgot-password {
+  color: #0a3383; /* Link color */
+  text-align: right;
+  display: block; /* Make the link a block element */
+  margin-bottom: 20px; /* Space below the link */
+}
