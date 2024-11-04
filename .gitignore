@@ -5,11 +5,21 @@
 /.pnp
 .pnp.js
 
+# Ignore build or dist folders (commonly used for build outputs)
+dist/
+
+# Ignore environment files (if any)
+.env
+.env.local
+
+# Ignore log files
+*.log
+
 # testing
 /coverage
 
-# production
-/build
+
+
 
 # misc
 .DS_Store
