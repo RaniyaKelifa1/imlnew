@@ -6,6 +6,7 @@
 .pnp.js
 
 # Ignore build or dist folders (commonly used for build outputs)
+build/
 dist/
 
 # Ignore environment files (if any)
@@ -21,13 +22,3 @@ dist/
 
 
 
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
